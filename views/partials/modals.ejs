@@ -1,0 +1,49 @@
+<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel" style="font-family: 'Comic Sans MS', 'Comic Sans', cursive; color: purple;">Add Judge</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="/addjudge" method="POST">
+            <div class="modal-footer" style="display: flex; flex-direction: column;">
+                <input type="text" id="name" name="emailJudge" placeholder="Email of Judge">
+                <br>
+                <input type="text" id="name" name="userNameJudge" placeholder="Username of Judge">
+                <br>
+                <input type="password" id="password" name="passwordJudge" placeholder="Password">
+                <br>
+                <button type="submit" class="btn" style="background-image: linear-gradient(to right,#EE6D98,#8A5EBF);color: white;" data-bs-dismiss="modal">Add Judge</button>
+              </div>
+           </form>
+        </div>
+       
+      </div>
+    </div>
+</div> 
+
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel" style="font-family: 'Comic Sans MS', 'Comic Sans', cursive; color: purple;">Add Lawyer</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="/addlawer" method="POST">
+            <div class="modal-footer" style="display: flex; flex-direction: column;">
+                <input type="text" id="name" name="emailLawyer" placeholder="Email of Lawyer">
+                <br>
+                <input type="text" id="name" name="userNameLawyer" placeholder="Username of Lawyer">
+                <br>
+                <input type="password" id="password" name="passwordLawyer" placeholder="Password">
+                <br>
+                <button type="submit" class="btn" style="background-image: linear-gradient(to right,#EE6D98,#8A5EBF);color: white;" data-bs-dismiss="modal">Add Lawyer</button>
+              </div>
+           </form>
+        </div>
+       
+      </div>
+    </div>
+</div>
