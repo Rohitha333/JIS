@@ -1,1 +1,1 @@
-# Judiciaru Information System JIS
+# Judiciary Information System (JIS)
